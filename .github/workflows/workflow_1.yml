@@ -10,4 +10,5 @@ jobs:
         run: touch ./test
       - name: List Files
         run: ls -la
+      - name: Clean up
         run: rm ./test
