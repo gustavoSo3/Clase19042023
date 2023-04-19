@@ -6,3 +6,8 @@ jobs:
     steps:
       - name: Printing Hello World
         run: echo "Hello World!!"
+      - name: Create File
+        run: touch ./test
+      - name: List Files
+        run: ls -la
+        run: rm ./test
