@@ -1,0 +1,13 @@
+name: Workflow 1
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: node:16
+    steps:
+      - name: My name
+        run: echo "Gustavo Jose Hernandez Sotres"
+      - name: Node Version
+        run: node -v
+      - name: Run app.js
+        run: echo IS722224
